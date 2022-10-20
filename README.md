@@ -11,9 +11,12 @@ Unfortunately, for now, the author didn`t find a way to create an executable fil
 You can find out how to do it here: https://developer.mulesoft.com/tutorials-and-howtos/dataweave/dataweave-extension-vscode-getting-started/
 2. Import generate-raml-lib folder into  Visual Studio Code.
 3. Run ```mvn clean install```
-4. Open ``src/main/dw/Main.dwl`` file. There you can see the variable `inpt` that store file data by its path. This file has the structure you want to convert to RAML datatype. So there could be link to any file, but do not forget to change second parameter of the function `readUrl` to proceed with reading the file properly.
-5. Function `convert2raml` has 3 parameters: first is data from the file, and two others have a Boolean type. The second parameter is responsible for making all the fields required or not, while the third is responsible for making type strict or united with nil value.
-6. Click on the run button.
+4. Open ``src/main/dw/Main.dwl`` file. There you can see the variable `inpt` that store file data by its path. This file has the structure you want to convert to RAML datatype. So there could be link to any file, but do not forget to change second parameter of the function `readUrl` according to the format you use to proceed with reading the file properly.
+6. Function `convert2raml(inpt, isOrNull, isRequired)` has 3 parameters: 
+    - `inpt` depics data structure we want to convert to RAML datatype
+    - `isOrNull` is responsible for making type of fields strict or united with `nil` (by default `False`)
+    - `isRequired` is responsible for making fields required or no (by default `True`)
+7. Click on the run button.
 
 ## Example
 
