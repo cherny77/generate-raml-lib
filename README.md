@@ -15,7 +15,7 @@ You can find out how to do it here: https://developer.mulesoft.com/tutorials-and
 6. Function `convert2raml(inpt, isOrNull, isRequired)` has 3 parameters: 
     - `inpt` depics data structure we want to convert to RAML datatype
     - `isOrNull` is responsible for making type of fields strict or united with `nil` (by default `False`)
-    - `isRequired` is responsible for making fields required or no (by default `True`)
+    - `isRequired` is responsible for making fields required or not (by default `True`)
 7. Click on the run button.
 
 ## Example
