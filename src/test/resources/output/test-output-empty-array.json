@@ -1,0 +1,7 @@
+{
+    "type": "object",
+    "properties": {
+      "mess1": "string",
+      "mess2": "array"
+    }
+  }

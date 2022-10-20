@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "properties": {
+    "mess1?": "string?",
+    "mess2?": {
+      "type": "object",
+      "properties": {
+        "sub_mess?": "number?",
+        "sub_mess_arr?": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "arr_elem?": "boolean?"
+            }
+          }
+        },
+        "sub_mess_arr_prim?": {
+          "type": "array",
+          "items": "string?"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "mess1": "mes",
+    "mess2": {
+        "sub_mess": 2,
+        "sub_mess_arr": [
+            {
+            "arr_elem": true
+            }],
+        "sub_mess_arr_prim": [ "dsds", "SDSF"]
+    }
+}
