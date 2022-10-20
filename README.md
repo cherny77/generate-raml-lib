@@ -19,7 +19,8 @@ You can find out how to do it here: https://developer.mulesoft.com/tutorials-and
 
 content of file `input.json`
 
-```{
+```
+{
     "mess1": "mes",
     "mess2": {
         "sub_mess": 2,
